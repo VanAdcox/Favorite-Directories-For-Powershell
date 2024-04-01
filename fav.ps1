@@ -18,8 +18,8 @@ function condition {
     }
 }
 
-# The format is:
-# & { condition SHORTCUT FOLDER }
+# The format is,
+# & { condition "SHORTCUT" "C:\FILEPATH" }
 
 & { condition "code" "C:\Users\exampleUser\Desktop\Code" }
 & { condition "unity" "C:\Users\exampleUser\Desktop\Code\Unity\School" }
