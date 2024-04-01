@@ -3,7 +3,7 @@ Create favorite directories &amp; easily go to them with this simple powershell 
 
 Open the fav.ps1 file & edit the conditions with the following format to create favorites:
 
-```& { condition SHORTCUT FOLDER }```
+```& { condition "SHORTCUT" "C:\FILEPATH" }```
 
 You can use this as a standalone script by running:
 ```fav.ps1 SHORTCUT```
