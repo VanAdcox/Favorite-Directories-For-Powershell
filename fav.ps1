@@ -8,7 +8,6 @@ function condition {
         [string]$folder
     )
 
-    # Use Push-Location instead of pushd
     if ($userChoice -eq $shortcut) {
         Push-Location $folder
         Write-Host "Push-Location $folder"
@@ -22,5 +21,5 @@ function condition {
 # The format is:
 # & { condition SHORTCUT FOLDER }
 
-& { condition "code" "C:\Users\vn\Desktop\Code" }
-& { condition "unity" "C:\Users\vn\Desktop\Code\Unity\School" }
+& { condition "code" "C:\Users\exampleUser\Desktop\Code" }
+& { condition "unity" "C:\Users\exampleUser\Desktop\Code\Unity\School" }
